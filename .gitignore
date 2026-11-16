@@ -1,0 +1,31 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Datos (el dataset vive en Kaggle) ---
+data/**
+!data/**/
+!data/**/.gitkeep
+
+# --- Modelos y resultados de entrenamiento ---
+models/
+runs/
+*.pt
+*.pth
+*.onnx
+
+# --- Credenciales ---
+kaggle.json
+
+# --- Editor / SO ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
