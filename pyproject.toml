@@ -3,7 +3,7 @@ name = "road-damage-detection"
 version = "0.1.0"
 description = "Detección y clasificación de daños en vías (baches) con visión computacional"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.13"
 dependencies = [
     "matplotlib>=3.8",
     "numpy>=1.26",
