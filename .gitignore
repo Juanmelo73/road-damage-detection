@@ -29,3 +29,6 @@ kaggle.json
 !.vscode/extensions.json
 .DS_Store
 Thumbs.db
+
+# --- Contexto local para Claude ---
+CLAUDE.md
